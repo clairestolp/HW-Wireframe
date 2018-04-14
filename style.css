@@ -1,0 +1,67 @@
+/*Assignment CSS*/
+body {
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  color: #777;
+  background: #777;
+  width: 960px;
+  font-size: 18px;
+}
+
+header, nav, section, aside, footer {
+  background: #ebebeb;
+}
+
+article {
+  color: #ebebeb;
+  background: #777;
+}
+
+h1, p {
+  color: #777;
+  background: #ebebeb
+}
+
+section {
+  width: 495px;
+}
+
+/*My CSS*/
+
+body {
+  margin: auto;
+}
+
+header, nav, footer{
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  height: 50px;
+}
+
+section, article, aside, h1, p {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+section {
+  float: left;
+}
+
+aside {
+  float: right;
+  height: 256px;
+  width: 345px;
+}
+
+footer {
+  clear: both;
+}
+
+#clear {
+  clear: both;
+}
+
+#large {
+  height: 297px;
+}
